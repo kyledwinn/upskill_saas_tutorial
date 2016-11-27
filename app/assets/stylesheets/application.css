@@ -14,6 +14,57 @@
  *= require_self
  */
 
-h1, h2, h3 {
-    font-family: 'ubuntu', sans-serif;
+
+html {
+	height: 100%;
+	font-size:50%;
 }
+body {
+	height:100%;
+	background: linear-gradient(#283137, #272822);
+	color: white;
+	line-height: 1.25;
+	font-family: 'Eczar', serif;
+	margin: 0 10em 0 20em;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+
+}
+
+
+h1 {
+	width: 6em;
+/*	margin: 0em 20em 0em 20em;
+*/	font-size: 9em;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: normal;
+	text-align: center;
+	color: #82CDB9;
+	background: rgba(171,170,152, .1);
+	border-radius: .1em;
+}
+
+h2 {
+	font-size: 4em;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+	color: #F37259;
+}
+
+.p {
+	font-size: 3em;
+	margin-left: 1em;
+	width: 20em;
+}
+
+.nav {
+}
+
+li {
+	font-size: 3em;
+	list-style-type: none;
+	float: left;
+	margin: .25em;
+}
+
